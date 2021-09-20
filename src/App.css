@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Fredoka One', cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+  width: 100%;
+  height: 100vh;
+  background: url("/src/components/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  width: 100%;
+  height: 100px;
+  position:fixed;
+  top: 0;
+  background: black;
+  z-index: 1;
+}
+
+.navbarContainer {
   display: flex;
-  flex-direction: column;
+  height: 100px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.navbarName img {
+  width: 220px;
+}
+
+.navbarRight {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbarRight li a {
+  text-decoration: none;
+  color: green;
+  font-weight: 500;
+  font-size: 27px;
+  padding: 0 15px;
+}
+
+.navbarRight .secondary{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.col-6 {
+  width: 50%;
+
+}
+
+.headerDetails {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+
+.headerUl {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.headerUl li {
+  width: 50px;
+  height: 50px;
+  border: 2px solid green;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.headerUl img {
+  height: 30px;
+}
+
+.headerSection h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.headerSection p {
+  font-size: 25px;
+  font-weight: 100;
+  color:green;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+.profileImg img {
+  padding: 0 30px;
+  margin-top: 150px;
+  height: 550px;
+  margin-left: 150px;
 }
