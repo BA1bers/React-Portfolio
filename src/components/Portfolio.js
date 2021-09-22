@@ -5,61 +5,26 @@ import DayScheduler from '../components/images/workdayscheduler.PNG'
 import WeatherDashboard from '../components/images/weatherdashboard2.PNG'
 import NoteTaker from '../components/images/NoteTaker.PNG'
 import Congo from '../components/images/congo.png'
+import Project from './Project'
 
 const Portfolio = () => {
     const [header] = React.useState({ subHeader: "Portfolio", text: "A look at my previous projects" });
     return (
-        <div className="portfolio">
+        <div className="portfolio" id="portfolio">
             <div className="container">
                 <div className="portfolioTop">
                     <h1 className="portfolioTopHeader">{header.subHeader}</h1>
                     <p className="portfolioTopText">{header.text}</p>
                 </div>
                 <div className="row">
-                    <div className="passwordGenerator">
-                        <div className="project">
-                            <a href="https://ba1bers.github.io/PasswordGenerator/" target="_blank" rel="noopener noreferrer">
-                            <img src={PasswordGenerator} alt="PasswordGenerator" />
-                            </a>
-                        </div>
-                    </div>
-                    <div className="codeQuiz">
-                        <div className="project">
-                            <a href="https://ba1bers.github.io/CodeQuiz/" target="_blank" rel="noopener noreferrer">
-                            <img src={CodeQuiz} alt="CodeQuiz" />
-                            </a>
-                        </div>
-                    </div>
-                    <div className="dayScheduler">
-                        <div className="project">
-                            <a href="https://ba1bers.github.io/Scheduler/" target="_blank" rel="noopener noreferrer">
-                            <img src={DayScheduler} alt="DayScheduler" />
-                            </a>
-                        </div>
-                    </div>
+                    <Project title="passwordGenerator" link="https://ba1bers.github.io/PasswordGenerator/" image={PasswordGenerator}/>
+                    <Project title="codeQuiz" link="https://ba1bers.github.io/CodeQuiz/" image={CodeQuiz} />
+                    <Project title="dayScheduler" link="https://ba1bers.github.io/Scheduler/" image={DayScheduler}/>
                 </div>
                 <div className="row">
-                    <div className="weatherDashboard">
-                        <div className="project">
-                            <a href="https://ba1bers.github.io/weather-dashboard/" target="_blank" rel="noopener noreferrer" >
-                            <img src={WeatherDashboard} alt="WeatherDashboard" />
-                            </a>
-                        </div>
-                    </div>
-                    <div className="noteTaker">
-                        <div className="project">
-                            <a href="https://mighty-cove-49648.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                            <img src={NoteTaker} alt="NoteTaker" />
-                            </a>
-                        </div>
-                    </div>
-                    <div className="congo">
-                        <div className="project">
-                            <a href="https://congomedia.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                            <img src={Congo} alt="Congo" />
-                            </a>
-                        </div>
-                    </div>
+                    <Project title="weatherDashboard" link="https://ba1bers.github.io/weather-dashboard/" image={WeatherDashboard} />
+                    <Project title="noteTaker" link="https://mighty-cove-49648.herokuapp.com/" image={NoteTaker} />
+                    <Project title="congo" link="https://congomedia.herokuapp.com/" image={Congo} />
                 </div>
             </div>
         </div>

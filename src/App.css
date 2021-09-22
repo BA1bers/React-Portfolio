@@ -34,6 +34,7 @@ body {
 
 .navbarName img {
   width: 220px;
+  cursor: pointer;
 }
 
 .navbarRight {
@@ -44,6 +45,7 @@ body {
 .navbarRight li a {
   text-decoration: none;
   color: green;
+  cursor: pointer;
   font-weight: 500;
   font-size: 27px;
   padding: 0 15px;

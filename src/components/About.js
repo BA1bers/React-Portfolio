@@ -4,7 +4,7 @@ import MyReactLogo from '../components/images/MyReactLogo.png'
 const About = () => {
     const [header] = React.useState({subHeader: "About Me"});
     return (
-        <div className="aboutMe">
+        <div className="aboutMe" id="aboutMe">
             <div className="container">
                 <div className="aboutMeTop">
                     <h1 className="aboutTopHeader">{header.subHeader}</h1>

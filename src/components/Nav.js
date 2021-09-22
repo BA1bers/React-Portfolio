@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../components/images/name.png'
+import { Link } from 'react-scroll'
 
 const Nav = () => {
     return (
@@ -8,18 +9,20 @@ const Nav = () => {
                 <div className="navbarContainer">
                     <ul className="navbarLeft">
                         <div className="navbarName">
-                            <img src={Logo} alt="name" />
+                            <Link to="backgroundHeader" smooth={true} duration={1000}>
+                                <img src={Logo} alt="name" />
+                            </Link>
                         </div>
                     </ul>
                     <ul className="navbarRight">
                         <li>
-                            <a href="">About Me</a>
+                            <Link to="aboutMe" smooth={true} duration={1000}>About Me</Link>
                         </li>
                         <li>
-                            <a class="secondary" href="">Portfolio</a>
+                            <Link class="secondary" to="portfolio" smooth={true} duration={1000}>Portfolio</Link>
                         </li>
                         <li>
-                            <a href="">Contact</a>
+                            <Link to="contactForm" smooth={true} duration={1000}>Contact</Link>
                         </li>
                         <li>
                             <a href="https://docs.google.com/document/d/1RuaDR1zYHFRseXVh7pqdPfil03erplzouCkC4c9zRJ8/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="secondary">Resume</a>

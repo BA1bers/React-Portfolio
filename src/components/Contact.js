@@ -1,22 +1,38 @@
 import React from 'react'
+import Emailjs from 'emailjs-com'
 
 const Contact = () => {
+    function sendEmail(e){
+        e.preventDefault();
+
+        Emailjs.sendForm(
+            'service_x6pwhdj',
+            'template_5lmde6d',
+            e.target,
+            'user_0fMXfpXKsophHanLdDpRJ'
+            ).then(res=> {
+                console.log(res);
+            }).catch(err => console.log(err));
+    }
+    const Send = () => {
+        alert("Your form has been sent")
+    }
     const [header] = React.useState({ subHeader: "Contact", text: "Want to get in contact with me? Fill out this form and I will get back to you as soon as possible" });
     return (
-        <div className="contactForm">
+        <div className="contactForm" id="contactForm">
             <div className="container">
                 <div className="contactTop">
                     <h1 className="contactTopHeader">{header.subHeader}</h1>
                     <p className="contactTopText">{header.text}</p>
                 </div>
-                <form className="contactSection">
+                <form className="contactSection" onSubmit={sendEmail}>
                     <label>Name: </label>
                     <input type='text' name='name' />
                     <label>Email: </label>
                     <input type='email' name='userEmail' />
                     <label>Message: </label>
                     <textarea name='message' rows='5' />
-                    <button data-testid="button" type="submit">Send</button>
+                    <button data-testid="button" type="submit" onClick={Send}>Send</button>
                 </form>
             </div>
         </div>

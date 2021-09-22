@@ -5,7 +5,7 @@ import ProfilePhoto from '../components/images/1632089247488.png'
 
 const Background = () => {
     return (
-        <div className="header">
+        <div className="header" id="backgroundHeader">
             <div className="container">
                 <div className="row">
                     <div className="col-6">
