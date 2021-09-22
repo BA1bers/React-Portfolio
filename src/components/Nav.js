@@ -19,10 +19,10 @@ const Nav = () => {
                             <a class="secondary" href="">Portfolio</a>
                         </li>
                         <li>
-                            <a href="">Resume</a>
+                            <a href="">Contact</a>
                         </li>
                         <li>
-                            <a class="secondary"href="">Contact</a>
+                            <a href="https://docs.google.com/document/d/1RuaDR1zYHFRseXVh7pqdPfil03erplzouCkC4c9zRJ8/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="secondary">Resume</a>
                         </li>
                     </ul>
                 </div>

@@ -68,6 +68,17 @@ body {
 
 }
 
+.col-7 {
+  width: 40%;
+}
+
+.col-8 {
+  height: 650px;
+  width: 70%;
+  align-items: center;
+  padding-left: 118px;
+}
+
 .headerDetails {
   display: flex;
   align-items: center;
@@ -116,4 +127,185 @@ body {
   margin-top: 150px;
   height: 550px;
   margin-left: 150px;
+}
+
+.aboutMe {
+  width: 100%;
+  background: black;
+  padding: 100px 0;
+}
+
+.aboutMeTop {
+  width: 35%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.aboutTopHeader {
+  font-weight: 300;
+  font-size: 50px;
+  padding-bottom: 100px;
+  color: green;
+}
+
+.aboutLogo {
+  padding-left: 30px;
+}
+
+.aboutLogo img {
+  height: 420px;
+}
+
+.aboutMeInfo {
+  color: white;
+  font-size: x-large;
+  font-weight: 100;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.aboutMeSkills h2{
+  color: green;
+  font-size: xxx-large;
+  font-weight: 300;
+  padding-bottom: 15px;
+}
+
+.aboutMeSkills {
+  color: white;
+  font-size: x-large;
+  font-weight: 100;
+}
+
+.portfolio {
+  width: 100%;
+  background: rgb(29, 29, 29);
+  padding: 100px 0;
+}
+
+.portfolioTop {
+  width: 35%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.portfolioTopHeader {
+  font-weight: 300;
+  font-size: 50px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.portfolioTopText{
+  font-size: x-large;
+  font-weight: 100;
+  margin-bottom: 100px;
+  text-align: center;
+  color: green;
+}
+
+.project img{
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  border: 3px solid green;
+}
+
+.passwordGenerator {
+  padding: 10px;
+  padding-left: 0;
+}
+
+.codeQuiz {
+  padding: 10px;
+}
+
+.dayScheduler {
+  padding: 10px;
+}
+
+.weatherDashboard {
+  padding: 10px;
+  padding-left: 0;
+}
+
+.noteTaker {
+  padding: 10px;
+}
+
+.congo {
+  padding: 10px;
+}
+
+.contactForm {
+  width: 100%;
+  background: black;
+  padding: 100px 0;
+}
+
+.contactTop {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.contactTopHeader {
+  font-weight: 300;
+  font-size: 50px;
+  padding-bottom: 20px;
+  color: green;
+}
+
+.contactTopText{
+  font-size: x-large;
+  font-weight: 100;
+  margin-bottom: 100px;
+  text-align: center;
+  color: white;
+}
+
+.contactSection {
+  width: 10%;
+}
+
+label {
+  color: white;
+  font-size: x-large;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+textarea {
+  width: 600px;
+  height: 120px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 3px solid #cccccc;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+button {
+  background: green;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 10px 15px;
 }
