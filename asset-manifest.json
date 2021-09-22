@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.71a6f2a7.chunk.css",
+    "main.js": "/static/js/main.05ed4248.chunk.js",
+    "main.js.map": "/static/js/main.05ed4248.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.33d035e5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.33d035e5.js.map",
+    "static/js/2.c594ed86.chunk.js": "/static/js/2.c594ed86.chunk.js",
+    "static/js/2.c594ed86.chunk.js.map": "/static/js/2.c594ed86.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.71a6f2a7.chunk.css.map": "/static/css/main.71a6f2a7.chunk.css.map",
+    "static/js/2.c594ed86.chunk.js.LICENSE.txt": "/static/js/2.c594ed86.chunk.js.LICENSE.txt",
+    "static/media/1632089247488.7028812f.png": "/static/media/1632089247488.7028812f.png",
+    "static/media/Github.148057a1.png": "/static/media/Github.148057a1.png",
+    "static/media/Linkedin.f5bce61c.png": "/static/media/Linkedin.f5bce61c.png",
+    "static/media/MyReactLogo.82313b27.png": "/static/media/MyReactLogo.82313b27.png",
+    "static/media/NoteTaker.fc155589.PNG": "/static/media/NoteTaker.fc155589.PNG",
+    "static/media/App.css": "/static/media/background.45070b16.png",
+    "static/media/congo.4bd8e2fc.png": "/static/media/congo.4bd8e2fc.png",
+    "static/media/pg2.b0b556a8.PNG": "/static/media/pg2.b0b556a8.PNG",
+    "static/media/quizhome.bbf3b7bb.PNG": "/static/media/quizhome.bbf3b7bb.PNG",
+    "static/media/weatherdashboard2.78f0efe0.PNG": "/static/media/weatherdashboard2.78f0efe0.PNG",
+    "static/media/workdayscheduler.855000ab.PNG": "/static/media/workdayscheduler.855000ab.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33d035e5.js",
+    "static/js/2.c594ed86.chunk.js",
+    "static/css/main.71a6f2a7.chunk.css",
+    "static/js/main.05ed4248.chunk.js"
+  ]
+}
