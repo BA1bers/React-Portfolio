@@ -1,14 +1,44 @@
-# Getting Started with Create React App
+# My Updated Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents:
+  * [Description](#description)
+  * [Technologies Used](#technologiesUsed)
+  * [Screenshots](#screenshots)
+  * [How to install](#installation)
+  * [Credits](#credits)
+  * [Email](#email)
+  * [GitHub](#github)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Description 
+This is an updated version of my portfolio I created early on in my coding bootcamp now using React.
+
+## Technologies Used:
+    HTML5
+    CSS
+    React.js
+    Email.js
+
+## Screenshots
+
+![Home]()
+![About Me]()
+![Portfolio]
+![Contact]()
+
+## How to install
+
+You can clone the repository by clicking the code button above and select the 'Download Zip' option.
+
+In the project directory, you first need to run
+
+### `npm install`
+
+before you can start. Then you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+This runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
@@ -16,12 +46,12 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+This launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+This builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
@@ -68,3 +98,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Credits
+Created By: Brent Albers.
+
+## Email
+Have any questions? feel free to email me at brent.albers@yahoo.com. 
+
+## GitHub
+Follow me on github where you can also ask me questions here at https://github.com/BA1bers.
