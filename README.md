@@ -1,5 +1,7 @@
 # My Updated Portfolio
 
+Link to deployed site [here](https://brent-albers-portfolio.herokuapp.com/)
+
 ## Table of Contents:
   * [Description](#description)
   * [Technologies Used](#technologiesUsed)
@@ -21,10 +23,10 @@ This is an updated version of my portfolio I created early on in my coding bootc
 
 ## Screenshots
 
-![Home]()
-![About Me]()
-![Portfolio]
-![Contact]()
+![Home](./src/components/images/HomePage.PNG)
+![About Me](./src/components/images/AboutMe.PNG)
+![Portfolio](./src/components/images/Portfolio.PNG)
+![Contact](./src/components/images/Contact.PNG)
 
 ## How to install
 
