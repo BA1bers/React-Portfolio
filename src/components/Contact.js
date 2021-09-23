@@ -2,7 +2,7 @@ import React from 'react'
 import Emailjs from 'emailjs-com'
 
 const Contact = () => {
-    function sendEmail(e){
+    function sendEmail(e) {
         e.preventDefault();
 
         Emailjs.sendForm(
@@ -10,12 +10,18 @@ const Contact = () => {
             'template_5lmde6d',
             e.target,
             'user_0fMXfpXKsophHanLdDpRJ'
-            ).then(res=> {
-                console.log(res);
-            }).catch(err => console.log(err));
+        ).then(res => {
+            console.log(res);
+        }).catch(err => console.log(err));
     }
     const Send = () => {
-        alert("Your form has been sent")
+        if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(Emailjs.value)) {
+            alert("Your form has been sent")
+            return (true)
+        } else {
+            alert("You have entered an invalid email address")
+            return (false)
+        }
     }
     const [header] = React.useState({ subHeader: "Contact", text: "Want to get in contact with me? Fill out this form and I will get back to you as soon as possible" });
     return (
