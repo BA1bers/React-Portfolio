@@ -3,9 +3,9 @@ import GitIcon from '../components/images/Github.png'
 import LinkedIcon from '../components/images/Linkedin.png'
 import ProfilePhoto from '../components/images/1632089247488.png'
 
-const Background = () => {
+const Homepage = () => {
     return (
-        <div className="header" id="backgroundHeader">
+        <div className="header" id="homePageHeader">
             <div className="container">
                 <div className="row">
                     <div className="col-6">
@@ -43,4 +43,4 @@ const Background = () => {
     )
 }
 
-export default Background
+export default Homepage
