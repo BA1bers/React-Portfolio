@@ -9,7 +9,7 @@ const Nav = () => {
                 <div className="navbarContainer">
                     <ul className="navbarLeft">
                         <div className="navbarName">
-                            <Link to="backgroundHeader" smooth={true} duration={1000}>
+                            <Link to="homePageHeader" smooth={true} duration={1000}>
                                 <img src={Logo} alt="name" />
                             </Link>
                         </div>
