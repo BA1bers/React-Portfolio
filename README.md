@@ -7,6 +7,7 @@ Link to deployed site [here](https://brent-albers-portfolio.herokuapp.com/)
   * [Technologies Used](#technologiesUsed)
   * [Screenshots](#screenshots)
   * [How to install](#installation)
+  * [Future Plans](#futureplans)
   * [Credits](#credits)
   * [Email](#email)
   * [GitHub](#github)
@@ -100,6 +101,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Future Plans
+
+Create a more responsive portfolio page with animations
 
 ## Credits
 Created By: Brent Albers.
