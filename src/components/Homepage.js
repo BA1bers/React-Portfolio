@@ -1,7 +1,9 @@
 import React from 'react'
 import GitIcon from '../components/images/Github.png'
 import LinkedIcon from '../components/images/Linkedin.png'
-import ProfilePhoto from '../components/images/1632089247488.png'
+import ProfilePhoto from '../components/images/Profile.png'
+import Typical from 'react-typical'
+
 
 const Homepage = () => {
     return (
@@ -11,6 +13,22 @@ const Homepage = () => {
                     <div className="col-6">
                         <div className="headerDetails">
                             <div className="headerSection">
+                                <h1>
+                                    Hello, My name is Brent Albers <br>
+                                    </br>& I am  
+                                    <Typical
+                                    loop={Infinity}
+                                    wrapper="b"
+                                    steps={[
+                                        ' an Engineer',
+                                        1000,
+                                        ' a Designer',
+                                        1000,
+                                        ' a Full-Stack Web Developer',
+                                        6000
+                                    ]}
+                                    />
+                                </h1>
                                 <ul className="headerUl">
                                     <li>
                                         <a href="https://github.com/BA1bers" target="_blank" rel="noopener noreferrer">
@@ -23,18 +41,7 @@ const Homepage = () => {
                                         </a>
                                     </li>
                                 </ul>
-                                <h1>
-                                    Hello there! My name is Brent Albers
-                                </h1>
-                                <p>
-                                    I'm a full-stack web developer
-                                </p>
                             </div>
-                        </div>
-                    </div>
-                    <div className="col-6">
-                        <div className="profileImg">
-                            <img src={ProfilePhoto} alt="profile" />
                         </div>
                     </div>
                 </div>

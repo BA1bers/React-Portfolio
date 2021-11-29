@@ -23,10 +23,10 @@ This is an updated version of my portfolio I created early on in my coding bootc
 
 ## Screenshots
 
-![Home](./src/components/images/HomePage.PNG)
-![About Me](./src/components/images/AboutMe.PNG)
-![Portfolio](./src/components/images/Portfolio.PNG)
-![Contact](./src/components/images/Contact.PNG)
+![Home](./src/components/images/homepage.png)
+![About Me](./src/components/images/aboutme.png)
+![Portfolio](./src/components/images/portfolio.png)
+![Contact](./src/components/images/contact.PNG)
 
 ## How to install
 

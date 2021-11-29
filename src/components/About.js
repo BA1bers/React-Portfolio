@@ -1,5 +1,5 @@
 import React from 'react'
-import MyReactLogo from '../components/images/MyReactLogo.png'
+import MyPhoto from '../components/images/Profile.png'
 
 const About = () => {
     const [header] = React.useState({subHeader: "About Me"});
@@ -11,13 +11,13 @@ const About = () => {
                 </div>
                 <div className="row">
                     <div className="col-7">
-                        <div className="aboutLogo">
-                            <img src={MyReactLogo} alt="myreactlogo" />
+                        <div className="aboutPhoto">
+                            <img src={MyPhoto} alt="myPhoto" />
                         </div>
                     </div>
                     <div className="col-8">
                         <div className="aboutMeInfo">
-                            <p>My name is Brent Albers, a Full Stack Web Development student at the University of Arizona. I am eager to apply the skills I have learned into building aesthetically pleasing designs with polished UI systems.</p>
+                            <p>My name is Brent Albers, I am a graduate from the University of Arizona's Full-Stack web development program. I am eager to apply the skills I have learned into building aesthetically pleasing designs with polished UI systems.</p>
                         </div>
                         <div className="aboutMeSkills">
                             <h2>Skills:</h2>

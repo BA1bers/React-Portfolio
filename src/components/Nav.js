@@ -1,5 +1,4 @@
 import React from 'react'
-import Logo from '../components/images/name.png'
 import { Link } from 'react-scroll'
 
 const Nav = () => {
@@ -9,9 +8,7 @@ const Nav = () => {
                 <div className="navbarContainer">
                     <ul className="navbarLeft">
                         <div className="navbarName">
-                            <Link to="homePageHeader" smooth={true} duration={1000}>
-                                <img src={Logo} alt="name" />
-                            </Link>
+                            <Link to="homePageHeader" smooth={true} duration={1000}>Brent Albers</Link>
                         </div>
                     </ul>
                     <ul className="navbarRight">

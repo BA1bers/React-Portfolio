@@ -11,7 +11,7 @@ body {
 .header {
   width: 100%;
   height: 100vh;
-  background: url("/src/components/images/background.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.609)), url("/src/components/images/arizona.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -32,9 +32,14 @@ body {
   justify-content: space-between;
 }
 
-.navbarName img {
-  width: 220px;
+.navbarName {
+  text-decoration: none;
+  color: white;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 40px;
+  padding: 0 15px;
+  display: flex;
 }
 
 .navbarRight {
@@ -44,7 +49,7 @@ body {
 
 .navbarRight li a {
   text-decoration: none;
-  color: green;
+  color: white;
   cursor: pointer;
   font-weight: 500;
   font-size: 27px;
@@ -62,11 +67,12 @@ body {
 
 .row {
   display: flex;
+  justify-content: center;
   width: 100%;
 }
 
 .col-6 {
-  width: 50%;
+  width: 75%;
 
 }
 
@@ -83,6 +89,7 @@ body {
 
 .headerDetails {
   display: flex;
+  justify-content: right;
   align-items: center;
   height: 100vh;
   width: 100%;
@@ -92,13 +99,15 @@ body {
 .headerUl {
   list-style-type: none;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
 }
 
 .headerUl li {
   width: 50px;
   height: 50px;
-  border: 2px solid green;
+  border: 3px solid green;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -112,8 +121,11 @@ body {
 
 .headerSection h1 {
   font-size: 50px;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
 }
 
 .headerSection p {
@@ -147,27 +159,27 @@ body {
   font-weight: 300;
   font-size: 50px;
   padding-bottom: 100px;
-  color: green;
+  color: white;
 }
 
-.aboutLogo {
-  padding-left: 30px;
+.aboutPhoto {
+  padding-left: 15px;
 }
 
-.aboutLogo img {
-  height: 420px;
+.aboutPhoto img {
+  height: 430px;
 }
 
 .aboutMeInfo {
   color: white;
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: 100;
   padding-top: 30px;
   padding-bottom: 100px;
 }
 
 .aboutMeSkills h2{
-  color: green;
+  color: white;
   font-size: xxx-large;
   font-weight: 300;
   padding-bottom: 15px;
@@ -203,14 +215,13 @@ body {
   font-weight: 100;
   margin-bottom: 100px;
   text-align: center;
-  color: green;
+  color: white;
 }
 
 .project img{
   height: 300px;
   width: 400px;
   border-radius: 20px;
-  border: 3px solid green;
 }
 
 .passwordGenerator {
@@ -241,7 +252,9 @@ body {
 
 .contactForm {
   width: 100%;
-  background: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.137), rgba(0, 0, 0, 0.609)), url("/src/components/images/phoenix.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 100px 0;
 }
 
@@ -254,7 +267,7 @@ body {
   font-weight: 300;
   font-size: 50px;
   padding-bottom: 20px;
-  color: green;
+  color: white;
 }
 
 .contactTopText{
@@ -315,7 +328,6 @@ button {
 .mainFooter {
   width: 100%;
   height: 100px;
-  position:fixed;
   bottom: 0;
   background: rgb(29, 29, 29);
   z-index: 1;
@@ -332,6 +344,7 @@ button {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-left: 45px;
 }
 
 .footerUl li {

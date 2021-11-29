@@ -4,7 +4,7 @@ import CodeQuiz from '../components/images/quizhome.PNG'
 import DayScheduler from '../components/images/workdayscheduler.PNG'
 import WeatherDashboard from '../components/images/weatherdashboard2.PNG'
 import NoteTaker from '../components/images/NoteTaker.PNG'
-import Congo from '../components/images/congo.png'
+import Mernlin from '../components/images/mernlin.jpg'
 import Project from './Project'
 
 const Portfolio = () => {
@@ -24,7 +24,7 @@ const Portfolio = () => {
                 <div className="row">
                     <Project title="weatherDashboard" link="https://ba1bers.github.io/weather-dashboard/" image={WeatherDashboard} />
                     <Project title="noteTaker" link="https://mighty-cove-49648.herokuapp.com/" image={NoteTaker} />
-                    <Project title="congo" link="https://congomedia.herokuapp.com/" image={Congo} />
+                    <Project title="mernlin" link="https://mernlin-pizza.herokuapp.com/Hero" image={Mernlin} />
                 </div>
             </div>
         </div>

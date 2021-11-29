@@ -23,7 +23,7 @@ const Contact = () => {
             return (false)
         }
     }
-    const [header] = React.useState({ subHeader: "Contact", text: "Want to get in contact with me? Fill out this form and I will get back to you as soon as possible" });
+    const [header] = React.useState({ subHeader: "Contact", text: "Want to get in contact with me? You can reach me at brent.albers@yahoo.com or by filling out this form below" });
     return (
         <div className="contactForm" id="contactForm">
             <div className="container">
