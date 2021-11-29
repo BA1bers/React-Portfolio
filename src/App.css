@@ -222,6 +222,19 @@ body {
   height: 300px;
   width: 400px;
   border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.portProjects p {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.portProjects a {
+  text-decoration: none;
+  color: green;
+  font-size: 18px;
 }
 
 .passwordGenerator {
